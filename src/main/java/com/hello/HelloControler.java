@@ -5,10 +5,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloControler {
-	@GetMapping("/hellow")
-	
-	public String good()
+	@GetMapping("/helloWorld")
+	public String good() // 메서드 이름 상관없음
 	{
-		return "Hello World";
+		return "welcome.html";
 	}
 }

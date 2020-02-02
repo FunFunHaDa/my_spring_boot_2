@@ -19,6 +19,10 @@
 	</properties>
 
 	<dependencies>
+	<dependency>
+    	<groupId>org.springframework.boot</groupId>
+   		 <artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-mustache</artifactId>
@@ -63,8 +67,6 @@
 		    <artifactId>popper.js</artifactId>
 		    <version>1.16.0</version>
 		</dependency>
-		
-		
 	</dependencies>
 
 	<build>
